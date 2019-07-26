@@ -2,7 +2,7 @@
 import React from "react";
 
 // Objects
-import CoinList from "./components/CoinList";
+import CoinList from "./components/DataList";
 
 // Stylings
 import "./App.css";

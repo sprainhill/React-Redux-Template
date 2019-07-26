@@ -6,13 +6,13 @@ import { connect } from "react-redux";
 
 // Styles
 
-const Coin = props => {
-  console.log("Coin props", props);
+const Data = props => {
+  console.log("Data props", props);
   return (
     <div>
-      <div>Coin Name: {props.coin.name}</div>
+      <div>Data rendering</div>
     </div>
   );
 };
 
-export default Coin;
+export default Data;
