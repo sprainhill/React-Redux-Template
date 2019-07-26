@@ -4,7 +4,7 @@ import { FETCH_START, FETCH_SUCCESS, FETCH_ERROR } from "../actions/types";
 // Initial state
 
 const initialState = {
-  coinList: []
+  data: []
 };
 
 // Reducer
@@ -22,7 +22,7 @@ export const rooterReducer = (state = initialState, { type, payload }) => {
         ...state,
         error: "",
         isFetching: false,
-        coinList: payload
+        data: payload
       };
     case FETCH_ERROR:
       return {
